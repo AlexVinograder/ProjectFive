@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 public class VacationTest {
     @Test
-    public void TestThreeMonthsVacation() {
+    public void testThreeMonthsVacation() {
         Vacation service = new Vacation();
 
         int income = 10_000;
@@ -21,7 +21,7 @@ public class VacationTest {
     }
 
     @Test
-    public void TestTwoMonthsVacation() {
+    public void testTwoMonthsVacation() {
         Vacation service = new Vacation();
         int income = 100_000;
         int expenses = 60_000;
